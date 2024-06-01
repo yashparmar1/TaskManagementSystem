@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1 class="display-4">Welcome to the Task Management System!</h1>
+    <p class="lead">This is a simple task management application to help you organize your projects and tasks.</p>
+    <hr class="my-4">
+    <p>To get started, register a new account or login to your existing account.</p>
+    <a class="btn btn-primary btn-lg" asp-controller="Account" asp-action="Register" role="button">Register</a>
+    <a class="btn btn-secondary btn-lg" asp-controller="Account" asp-action="Login" role="button">Login</a>
+</div>
